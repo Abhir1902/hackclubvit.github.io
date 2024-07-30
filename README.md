@@ -1,6 +1,6 @@
 # Main Website of HC
 
-![hackclub](assets/hc.jpeg)
+![hackclub](assets/img/hc.jpeg)
 
 ## Rules
 
