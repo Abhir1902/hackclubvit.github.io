@@ -2,64 +2,241 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HackClub</title>
-    <link rel="stylesheet" href="./CSS/3.css">
-    <link rel="stylesheet" href="./CSS/footer.css">
-    <link rel="stylesheet" href="./CSS/navbar.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HackClub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css'>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+  <!-- Link for CSS Styles -->
+  <!-- <link rel="stylesheet" href="./CSS/styles.css"> -->
+  <!-- <link rel="stylesheet" href="./Events_Card/styles.css"> -->
+  <link rel="stylesheet" href="./CSS/3.css">
+  <link rel="stylesheet" href="./CSS/footer.css">
+  <link rel="stylesheet" href="./CSS/commence-launch.css">
+  <link rel="stylesheet" href="./CSS/Card_carousel.css">
+  <link rel="stylesheet" href="./CSS/navbar.css">
+  <link rel="stylesheet" href="./CSS/homepage.css">
+
 </head>
 
 <body>
-    <!-- Done by Abhir Mirikar  -->
-    <header class = "header">    
-      <nav class="navbar">
-          <div class="logo">
-              <img class = "logo-img" src="./assets/img/logo.png" alt="hackclub-logo">
+  <!-- Done by Abhir Mirikar  -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <img class="logo-img" src="./assets/img/logo.png" alt="hackclub-logo">
+      </div>
+      <ul class="nav-content">
+        <li class="nav-tags">Hack</li>
+        <li class="nav-tags">Link</li>
+        <li class="nav-tags">Support</li>
+        <li class="nav-tags">Contact</li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+  <!-- Done by Srijan Arya ...Aadithya -->
+
+  <section id="homepage-section">
+    <img id="rocket" src="./assets/img/Rocket_1.png" alt="rocket">
+    <img id="button-homepage" src="./assets/img/button-homepage.svg" alt="button background">
+    <div class="homepage-text">
+      <h1>HackClub</h1>
+      <h3>VIT CHENNAI &#160;</h3>
+    </div>
+  </section>
+
+  <!--Done by Yash Bawa and Soham Mitra-->
+  <section id="about-section">
+    <div id="about-section_text">
+      <h1>Hey there,</h1>
+      <p>We are a group of motivated students who wish to create an environment for anyone who wishes to begin
+        with tech projects. We believe that there is no task impossible and no target unachievable. Our major
+        goal is creating an ecosystem where developers come to seek help for their projects and our platform
+        will connect like—minded</p>
+    </div>
+    <div id="about-section_image">
+      <img id="about-img" src="./assets/img/Aboutcc.jpg" alt="" srcset="">
+    </div>
+  </section>
+  <section id="code-section">
+    <div id="code_section-text">
+      <h1 id="code_section-heading"> &#60;/You'll never code alone&#62;</h1>
+      <p id="code_section-description">Remember, together everyone achieves more. We are <br /> drawn
+        to the concept that everyone has a role in <br> development and knowledge is a resource that must <br>
+        be shared to grow.</p>
+    </div>
+  </section>
+
+
+  <section id='commence-launch'>
+    <div class='section-image'>
+      <img src='./assets/img/Rocket_1.png'>
+    </div>
+
+    <div class='section-text'>
+      <div class='large1'>
+        <div class="align-right">
+          <p>Commence Launch to your</p>
+          <p>coding visions.</p>
+        </div>
+        <button class='large_button'>
+          Join Us
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Card Carousel -->
+  <!-- partial:index.partial.html -->
+  <!-- <div class="main-sec">
+    <div class="slide-sec">
+    </div>
+  </div> -->
+  <!-- partial -->
+  <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js'></script>
+  <script src="./scripts/script.js"></script> -->
+
+
+  <div class="events-section">
+    <div id="reviews" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#reviews" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#reviews" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#reviews" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#reviews" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#reviews" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <!-- <button type="button" data-bs-target="#reviews" data-bs-slide-to="5" aria-label="Slide 6"></button> -->
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="content">
+            <div class="rectangle">
+              <div class="box-img">
+                <img src="./assets/img/Screenshot_20230214_121025.png" class="box-img">
+              </div>
+            </div>
+            <p class="name">Hand and Brain Chess</p>
+            <p class="event-text">
+              ✨Every chess player is in a class of his own.✨
+              Our wondrous event is back. Trust your partner ? Get along and play together. Limited registrations only
+              <!-- so don't miss out on your chance to participate in this unforgettable event. <span><a href="https://vitchennaievents.com/vibrance/">Register at https://vitchennaievents.com/vibrance/ </a></span>  -->
+            </p>
+
           </div>
-          <ul class = "nav-content">
-                  <li class = "nav-tags">Hack</li>
-                  <li class = "nav-tags" >Link</li>
-                  <li class = "nav-tags">Support</li>
-                  <li class = "nav-tags">Contact</li> 
-          </ul> 
-          <div class="hamburger">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
+        </div>
+        <div class="carousel-item">
+          <div class="content">
+            <div class="rectangle">
+              <div class="box-img">
+                <img src="./assets/img/Dare to ride.jpg" class="box-img">
+              </div>
+            </div>
+            <p class="name">Dare to Ride</p>
+            <p class="event-text">
+              "Put your bravery to the test and experience the ultimate thrill with the machine bull ride. Dare to ride
+              and discover the rush of excitement that comes with taming the mechanical beast.
+            </p>
           </div>
-      </nav>
-    </header>
-    <!--Done by Yash Bawa and Soham Mitra-->
-    <section id="about-section">
-        <div id="about-section_text">
-            <h1>Hey there,</h1>
-            <p>We are a group of motivated students who wish to create an environment for anyone who wishes to begin
-                with tech projects. We believe that there is no task impossible and no target unachievable. Our major
-                goal is creating an ecosystem where developers come to seek help for their projects and our platform
-                will connect like—minded</p>
         </div>
-        <div id="about-section_image">
-            <img id="about-img" src="./assets/img/Aboutcc.jpg" alt="" srcset="">
+        <div class="carousel-item">
+          <div class="content">
+            <div class="rectangle">
+              <div class="box-img">
+                <img src="./assets/img/Face Painting.jpg" class="box-img">
+              </div>
+            </div>
+            <p class="name">Face Painting</p>
+            <p class="event-text">
+              "Unleash your creativity and transform into a work of art with our face painting services. A splash of
+              color, a stroke of magic, dare to be bold and showcase your individuality."
+            </p>
+          </div>
         </div>
-    </section>
-    <section id="code-section">
-        <div id="code_section-text">
-            <h1 id="code_section-heading"> &#60;/You'll never code alone&#62;</h1>
-            <p id="code_section-description">Remember, together everyone achieves more. We are <br /> drawn
-                to the concept that everyone has a role in <br> development and knowledge is a resource that must <br>
-                be shared to grow.</p>
+        <div class="carousel-item">
+          <div class="content">
+            <div class="rectangle">
+              <div class="box-img">
+                <img src="./assets/img/odyssey.jpg" class="box-img">
+              </div>
+            </div>
+            <p class="name">Events</p>
+            <p class="event-text">
+              "Join the virtual arena and experience the excitement of online gaming like never before. With a wide
+              range of games, friendly competition, and endless entertainment, dare to take your gaming skills to the
+              next level."
+            </p>
+          </div>
         </div>
-    </section>
-    
-</body>
-<script src="./scripts/script.js"></script>
-<footer class='footer-body-section'>
+        <div class="carousel-item">
+          <div class="content">
+            <div class="rectangle">
+              <div class="box-img">
+                <img src="./assets/img/WhatsApp Image 2023-02-13 at 19.45.39.jpg" class="box-img">
+              </div>
+            </div>
+            <p class="name">Events</p>
+            <p class="event-text">
+              A 6v6 shooter arena game where you'll be given a gun with 50 paintballs aiming to shoot at the opponent!
+            </p>
+          </div>
+        </div>
+        <!-- <div class="carousel-item">
+          <div class="content">
+            <div class="rectangle">
+              <div class="box-img">
+                <img src="https://www.rahulvk.com/media/images/cafe-g317434eb1_1280.png" class="box-img">
+              </div>
+            </div>
+            <p class="name">Events</p>
+            <p class="event-text">
+              Ab nemo praesentium ea ullam quas et rerum illum aut sunt consectetur nam laboriosam dolores qui
+              praesentium voluptatem et delectus amet. Aut cupiditate adipisci est veritatis dolorum nam voluptas eaque
+              et eaque enim 33 perferendis sunt ea autem velit. Ut explicabo similique hic voluptatum doloremque quo
+              magni praesentium qui cumque iste.
+            </p>
+          </div>
+        </div> -->
+      </div>
+      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#reviews" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#reviews" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button> -->
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class='footer-body-section'>
     <ul class="footer-container">
       <li class="footer-socials-wrapper">
         <div class="footer-banner">
-          <img src="assets/img/hc_logo.svg" alt ="Logo">
+          <img src="assets/img/hc_logo.svg" alt="Logo">
           <a id="hc"><strong>Hack Club</strong></a>
         </div>
         <div class="footer-socials">
@@ -84,5 +261,7 @@
       </div>
     </ul>
   </footer>
+  <script src="./scripts/script.js"></script>
+</body>
 
 </html>

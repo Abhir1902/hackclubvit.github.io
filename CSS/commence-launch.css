@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+@font-face {
+    font-family: 'Phantom Sans';
+    src: url('../assets/Fonts/Regular.woff') format('woff'),
+        url('../assets/Fonts/Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phantom Sans';
+    src: url('../assets/Fonts/Italic.woff') format('woff'),
+        url('../assets/Fonts/Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phantom Sans';
+    src: url('../assets/Fonts/Bold.woff') format('woff'),
+        url('../assets/Fonts/Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+#commence-launch {
+    background: var(--dark);
+    background-color: #272121;
+    ;
+    color: white;
+    text-align: right;
+    min-height: 90vh !important;
+    display: flex !important;
+    align-items: center;
+    margin: 0 !important;
+    padding: 2rem;
+    justify-content: center;
+
+}
+
+#commence-launch .button:hover {
+    background-color: #EF1212;
+    color: white;
+    transition-duration: 0.2s;
+}
+
+#commence-launch.section-text {
+    width: 60%;
+
+}
+
+#commence-launch.section-image {
+    /* max-height: 90%; */
+    /* width: auto; */
+    width: 20.681rem;
+    height: 33.491rem;
+
+}
+
+#commence-launch .large.button {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    width: 20rem;
+    font-family: Roboto;
+    box-shadow: 12px 9px 19px rgba(0, 0, 0, 0.41), -12px -9px 19px rgba(255, 255, 255, 0.19);
+    /* padding: 2rem; */
+    letter-spacing: 0.2rem;
+    padding: 1.2rem;
+    text-align: center;
+    box-sizing: border-box;
+    background: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 1rem;
+    justify-content: center;
+    font-weight: bold;
+    width: 20%;
+}
+
+#commence-launch .button:hover {
+    background-color: #EF1212;
+    color: white;
+    transition-duration: 0.2s;
+}
+
+
+#commence-launch .large1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+#commence-launch .large1 p {
+    font-size: 3rem;
+    /* font-family: roboto; */
+    font-family: 'Abel';
+    font-family: 'Phantom Sans';
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+    /* margin-bottom: 2.2em; */
+    margin-right: 1em;
+    font-weight: 700;
+}
+
+#commence-launch .large1 .large_button {
+    margin-top: 4rem;
+    width: 15.352rem;
+    height: 4.063rem;
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background: #FFFFFF;
+    border-radius: 0.875rem;
+    transition: all 0.2s ease-in-out;
+}
+
+#commence-launch .large1 .large_button:hover{
+    cursor: pointer;
+    box-shadow: 12px 9px 19px rgba(0, 0, 0, 0.41), -12px -9px 19px rgba(255, 255, 255, 0.19);
+    transition: all 0.2s ease-in-out;
+}
+
+
+.align-right {
+    padding-left: 4rem;
+}
+
+@media screen and (max-aspect-ratio: 1/1) {
+    #commence-launch {
+        flex-direction: column !important;
+    }
+
+    #commence-launch .section-text {
+        width: 100%;
+    }
+
+    #commence-launch .section-image img{
+        /* max-height: 100%; */
+        width: 18rem;
+        /* margin-right: 5px; */
+        height: 25rem;
+        /* height: 400px; */
+
+        /* width: auto; */
+        /* height: auto; */
+    }
+
+}
